@@ -7,12 +7,12 @@
     Shell.FlyoutBehavior="Disabled">
     <TabBar>
         <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    <ShellContent
-        Title="sobre"
-        ContentTemplate="{DataTemplate local:sobre}"
-         Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
-       </TabBar>
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+        <ShellContent
+            Title="About"
+            ContentTemplate="{DataTemplate local:Sobre}"
+            Icon="{OnPlatform 'icon_about.png', iOS='icon_about_ios.png', MacCatalyst='icon_about_ios.png'}" />
+    </TabBar>
 </Shell>

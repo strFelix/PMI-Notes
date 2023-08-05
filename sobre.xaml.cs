@@ -1,8 +1,8 @@
 namespace notes;
 
-public partial class sobre : ContentPage
+public partial class Sobre : ContentPage
 {
-	public sobre()
+	public Sobre()
 	{
 		InitializeComponent();
 	}

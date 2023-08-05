@@ -53,7 +53,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="sobre.xaml">
+	  <MauiXaml Update="NotePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Sobre.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
